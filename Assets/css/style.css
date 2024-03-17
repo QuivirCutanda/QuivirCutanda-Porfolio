@@ -788,6 +788,9 @@ transition: width 2s;
 }
 
 @media screen and (max-width: 991px) {
+  .contact-right{
+    display: none;
+  }
   h1 {
     font-size: 48px;
   }
@@ -975,8 +978,25 @@ transition: width 2s;
   .contact-right{
     display: none;
   }
+  
+  .contact-left{
+    width: 100%;
+  }
+  .contact-left input,   .contact-left .msgInput{
+    width: 350px;
+  }
 }
-
+@media screen and (max-width: 320px) {
+  .contact-left{
+    width: 100%;
+  }
+  .contact-left h2{
+    font-size: 40px;
+  }
+  .contact-left input,   .contact-left .msgInput{
+    width: 300px;
+  }
+}
 .position-relative .hero-image-wrap img {
   width: 100px;
   height: 100%;
